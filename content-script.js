@@ -28,7 +28,7 @@ class App {
 		this.style = document.createElement('style');
 		this.style.innerHTML = `
       * {
-        font-family: Rubik, sans-serif;
+        font-family: Rubik, sans-serif !important;
       }
     `;
 	}
